@@ -347,7 +347,7 @@ const NSInteger AIRMapMaxZoomLevel = 20;
 
 - (void)setShowsUserLocation:(BOOL)showsUserLocation
 {
-    _showsUserLocation = showsUserLocation;
+    showsUserLocation = showsUserLocation;
 }
 
 - (void)setTintColor:(UIColor *)tintColor
